@@ -1,0 +1,26 @@
+body {
+	color: #2C2A31;
+}
+
+a {
+	color: #42BC9B;
+}
+
+a:hover {
+	color: #11151F;
+}
+
+a:visited, a:active {
+}
+
+table {
+	font-size: 11px;
+}
+
+thead {
+	color: #42BC9B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #171D2C;
+}
