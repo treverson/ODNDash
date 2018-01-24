@@ -1,6 +1,7 @@
 
 # ODNDash
 
+# Install ODNDash on Ubuntu (scroll down for Windows and Mac OS)
 Make sure you have Obsidian-QT running on Ubuntu first. You can follow my guide for installing it on Amazon AWS here: https://pastebin.com/RRPmDVy1
 
 To install ODNDash, follow the next steps while connected to your VPS over SSH:
@@ -40,6 +41,10 @@ For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://di
 
 Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
 Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
+
+# Install ODNDash on Windows (coming soon)
+
+# Install ODNDash on Mac OS (coming soon)
 
 Good luck and Happy Staking,
 
