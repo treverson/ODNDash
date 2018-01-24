@@ -36,7 +36,7 @@ Management Console -> Security Groups -> Select the active Security Group -> In 
 
 You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
 
-For any questions, contact @TPRCoop on Official Obsidian Discord (https://discord.gg/WQhfey2).
+For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://discord.gg/WQhfey2).
 
 Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
 Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
