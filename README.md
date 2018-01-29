@@ -36,8 +36,8 @@ Management Console -> Security Groups -> Select the active Security Group -> In 
 16) Clone this GIT with the command '*sudo git clone https://github.com/tluijf/ODNDash'*.
 17) Open the newly created folder ODNDash with '*cd ODNDash*/'.
 18) Before using the software, you have to enter your chosen username and password from step 4. Enter the following command to open the wallet_func.php file: '*sudo nano wallet_func.php*'.
-19) Find the row where it says: "*$user = 'user';*". Replace user with the username you chose in step 4.
-20) In the next row where it says: "*$password = 'password';*". Replace password with the password you chose in step 4.
+19) Find the row where it says: "*$user = 'user';*". Replace 'user' with the username you chose in step 4, keep the ''.
+20) In the next row where it says: "*$password = 'password';*". Replace 'password' with the password you chose in step 4, keep the ''.
 21) Exit and save the file with Ctrl+X, press Y for save changes, don't change the filename (press ENTER).
 
 You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
