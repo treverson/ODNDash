@@ -1,6 +1,8 @@
 
 # ODNDash
 
+# See an example of ODNDash on https://odnpool.com/index.html. This is a non-live version, displaying the dashboard.
+
 # Install ODNDash on Ubuntu (scroll down for Windows and Mac OS)
 Make sure you have Obsidian-QT running on Ubuntu first. You can follow my guide for installing it on Amazon AWS here: https://pastebin.com/RRPmDVy1
 
