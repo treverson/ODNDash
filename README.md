@@ -9,6 +9,7 @@ To install ODNDash, follow the next steps while connected to your VPS over SSH:
 2) Change directory to /home/**[username]**/.obsidian with the command '*cd /home/**[username]**/.obsidian'*. 
 3) Open obsidian.conf for editing: '*sudo nano obsidian.conf*'.
 4) Remove any text in this file and add the following lines:
+    
     *server=1*
     
     *rpcuser=[choose a username]*
