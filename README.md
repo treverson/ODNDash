@@ -47,8 +47,8 @@ For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://di
 Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
 Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
 
-# Install ODNDash on Windows (coming soon)
-1) Find your '*obsidian.conf*' file in '%APP_DATA%/Roaming/Obsidian'. Open the file.
+# Install ODNDash on Windows
+1) Find your '*obsidian.conf*' file in '%APP_DATA%/Roaming/ObsidianQt'. Open the file. If it doesn't exist, create it in this folder.
 2) Remove any text in this file and add the following lines:
     
     *server=1*
@@ -62,6 +62,14 @@ Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe
    Choose your own username and password.
  3) Restart your Obsidian-QT wallet.
  4) Install the package XAMPP, using the latest version of PHP. MySQL is not needed. You can download the installer from: https://www.apachefriends.org/download.html
+ 5) After installation, download the files of ODNDash to the 'htdocs' folder in the XAMPP installation folder (selected during installation).
+ 6) Open the file 'wallet_func.php' in your favorite text editor to enter the username and password you chose in step 2.
+ 7) Find the row where it says: "*$user = 'user';*". Replace 'user' with the username you chose in step 4, keep the ''.
+ 8) In the next row where it says: "*$password = 'password';*". Replace 'password' with the password you chose in step 4, keep the ''.
+ 9) Exit and save the file.
+10) If you haven't done so yet, start the Apache server installed by XAMPP (should have a shortcut on the desktop or in the start menu).
+11) You should now be able to access your private ODNDash via your browser. Browse to http://localhost/index.php to see it working. In case that you put all the files in a subfolder of htdocs, you have to include that folder in the url.
+12) In order to access your ODNDash from outside of your private network, your computer must be kept running and you have to forward the port 80 in your router so that it forwards the request to your Windows computer.
 
 You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
 
@@ -70,7 +78,30 @@ For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://di
 Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
 Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
 
-# Install ODNDash on Mac OS (coming soon)
+# Install ODNDash on Mac OS
+
+1) Find your '*obsidian.conf*' file in '~/Library/Application Support/ObsidianQt'. Open the file. If it doesn't exist, create it in this folder.
+2) Remove any text in this file and add the following lines:
+    
+    *server=1*
+    
+    *rpcuser=[choose a username]*
+    
+    *rpcpassword=[choose a password]*
+    
+    *rpcport=8332*
+    
+   Choose your own username and password.
+ 3) Restart your Obsidian-QT wallet.
+ 4) Install the package XAMPP, using the latest version of PHP. MySQL is not needed. You can download the installer from: https://www.apachefriends.org/download.html
+ 5) After installation, download the files of ODNDash to the 'htdocs' folder in the XAMPP folder, which you can find under 'Applications'.
+ 6) Open the file 'wallet_func.php' in your favorite text editor to enter the username and password you chose in step 2.
+ 7) Find the row where it says: "*$user = 'user';*". Replace 'user' with the username you chose in step 4, keep the ''.
+ 8) In the next row where it says: "*$password = 'password';*". Replace 'password' with the password you chose in step 4, keep the ''.
+ 9) Exit and save the file.
+10) If you haven't done so yet, start the Apache server installed by XAMPP. You can find XAMPP in your Launchpad, open ManagerOSX. Under Manage Servers you can start the 'Apache Web Server'.
+11) You should now be able to access your private ODNDash via your browser. Browse to http://localhost/index.php to see it working. In case that you put all the files in a subfolder of htdocs, you have to include that folder in the url.
+12) In order to access your ODNDash from outside of your private network, your computer must be kept running and you have to forward the port 80 in your router so that it forwards the request to your Windows computer.
 
 You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
 
