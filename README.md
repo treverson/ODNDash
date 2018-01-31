@@ -103,7 +103,7 @@ Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe
  9) Exit and save the file.
 10) If you haven't done so yet, start the Apache server installed by XAMPP. You can find XAMPP in your Launchpad, open ManagerOSX. Under Manage Servers you can start the 'Apache Web Server'.
 11) You should now be able to access your private ODNDash via your browser. Browse to http://localhost/index.php to see it working. In case that you put all the files in a subfolder of htdocs, you have to include that folder in the url.
-12) In order to access your ODNDash from outside of your private network, your computer must be kept running and you have to forward the port 80 in your router so that it forwards the request to your Windows computer.
+12) In order to access your ODNDash from outside of your private network, your computer must be kept running and you have to forward the port 80 in your router so that it forwards the request to your Mac.
 
 You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
 
