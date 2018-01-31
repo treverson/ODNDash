@@ -44,11 +44,6 @@ Management Console -> Security Groups -> Select the active Security Group -> In 
 
 You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
 
-For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://discord.gg/WQhfey2).
-
-Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
-Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
-
 # Install ODNDash on Windows
 1) Find your '*obsidian.conf*' file in '%APP_DATA%/Roaming/ObsidianQt'. Open the file. If it doesn't exist, create it in this folder.
 2) Remove any text in this file and add the following lines:
@@ -74,11 +69,6 @@ Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe
 12) In order to access your ODNDash from outside of your private network, your computer must be kept running and you have to forward the port 80 in your router so that it forwards the request to your Windows computer.
 
 You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
-
-For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://discord.gg/WQhfey2).
-
-Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
-Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
 
 # Install ODNDash on Mac OS
 
@@ -110,6 +100,7 @@ You should now be able to access your private ODNDash via your browser. Browse t
 For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://discord.gg/WQhfey2).
 
 Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
+
 Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
 
 Good luck and Happy Staking,
