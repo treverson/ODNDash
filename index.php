@@ -48,7 +48,7 @@ $obj = json_decode($json, true);
 				</div>
 			</div>
 			<div class="container">
-				<h5>Last 50 transactions<h5>
+				<h5>Last 50 transactions</h5>
 				<?php $transactions = $odnPool->getLastTransactions();?>
 				<table class='wallethistorytransactions'>
 					<thead>
