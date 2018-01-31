@@ -1,7 +1,3 @@
-body {
-	color: #2C2A31;
-}
-
 a {
 	color: #42BC9B;
 }
@@ -14,13 +10,32 @@ a:visited, a:active {
 }
 
 table {
-	font-size: 11px;
+	font-size: 12px;
 }
 
 thead {
 	color: #42BC9B;
 }
 
+tbody {
+	color: #f1f3f2;
+}
+
+body {
+	background-color: #2C2A31;
+	color: #f1f3f2;
+}
+
+.header {
+	background-color: #2C2A31;
+	color: #f1f3f2;
+}
+
 h1, h2, h3, h4, h5, h6 {
-	color: #171D2C;
+	color: #42BC9B;
+}
+
+.header h1 {
+	padding-top: 0.4em;
+	color: #42BC9B;;
 }

@@ -37,7 +37,15 @@ class ODNPool {
 	}
 	
 	public function getStakingWeight() {
-		$weight = round(($this->odn->getstakinginfo()["weight"])/100000000, 1);
+		$weight = round(($this->odn->getstakinginfo()["weight"])/100000000, 2);
+		if($this->odn->error) {
+			$weight = false;
+		}
+		return $weight;
+	}
+	
+	public function getNetworkWeight() {
+		$weight = round(($this->odn->getstakinginfo()["netstakeweight"])/100000000, 2);
 		if($this->odn->error) {
 			$weight = false;
 		}
