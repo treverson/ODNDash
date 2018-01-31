@@ -45,7 +45,7 @@ Management Console -> Security Groups -> Select the active Security Group -> In 
 You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
 
 # Install ODNDash on Windows
-1) Find your '*obsidian.conf*' file in '%APP_DATA%/Roaming/ObsidianQt'. Open the file. If it doesn't exist, create it in this folder.
+1) Find your '*obsidian.conf*' file in '%APPDATA%/Roaming/ObsidianQt'. Open the file. If it doesn't exist, create it in this folder.
 2) Remove any text in this file and add the following lines:
     
     *server=1*
