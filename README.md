@@ -1,8 +1,6 @@
 
 # ODNDash
 
-# See an example of ODNDash on https://odnpool.com/index.html. This is a non-live version, displaying the dashboard.
-
 # Install ODNDash on Ubuntu (scroll down for Windows and Mac OS)
 Make sure you have Obsidian-QT running on Ubuntu first. You can follow my guide for installing it on Amazon AWS here: https://pastebin.com/RRPmDVy1
 
@@ -50,8 +48,36 @@ Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
 Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
 
 # Install ODNDash on Windows (coming soon)
+1) Find your '*obsidian.conf*' file in '%APP_DATA%/Roaming/Obsidian'. Open the file.
+2) Remove any text in this file and add the following lines:
+    
+    *server=1*
+    
+    *rpcuser=[choose a username]*
+    
+    *rpcpassword=[choose a password]*
+    
+    *rpcport=8332*
+    
+   Choose your own username and password.
+ 3) Restart your Obsidian-QT wallet.
+ 4) Install the package XAMPP, using the latest version of PHP. MySQL is not needed. You can download the installer from: https://www.apachefriends.org/download.html
+
+You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
+
+For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://discord.gg/WQhfey2).
+
+Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
+Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
 
 # Install ODNDash on Mac OS (coming soon)
+
+You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
+
+For any questions, contact **@TPRCoop** on Official Obsidian Discord (https://discord.gg/WQhfey2).
+
+Tips are welcome in ODN via ODN Address: **XUtqN4qzAWGeXR8GQUuQmY6YhMhwqqs7Qi**
+Tips are welcome in any ERC-20 token or Ether via address: **0x8BCDd9F4f4984c8fe5b2B3684b3308D35299933D**
 
 Good luck and Happy Staking,
 
