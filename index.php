@@ -13,6 +13,7 @@ $obj = json_decode($json, true);
 	    <link rel="stylesheet" href="css/normalize.css">
 	    <link rel="stylesheet" href="css/skeleton.css">
 	    <link rel="stylesheet" href="css/main.css">
+	    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div class="section content">
