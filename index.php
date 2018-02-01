@@ -50,7 +50,7 @@ $obj = json_decode($json, true);
 			<div class="container" style="text-align: center;">
 				<h5>Last 50 transactions</h5>
 				<?php $transactions = $odnPool->getLastTransactions();?>
-				<table class="u-full-width">
+				<table style="margin: auto; width: 80%;">
 					<thead>
 						<tr>
 							<th>Date Time</th>
