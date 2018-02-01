@@ -42,7 +42,7 @@ To install ODNDash, follow the next steps while connected to your VPS over SSH:
 20) In the next row where it says: "*$password = 'password';*". Replace 'password' with the password you chose in step 4, keep the ''.
 21) Exit and save the file with Ctrl+X, press Y for save changes, don't change the filename (press ENTER).
 
-You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
+You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php, change ODNDash in case you downloaded the files to a different sub-folder of your /var/www/html folder.
 
 # Install ODNDash on Windows
 1) Find your '*obsidian.conf*' file in '%APPDATA%/Roaming/ObsidianQt'. Open the file. If it doesn't exist, create it in this folder.
@@ -68,7 +68,7 @@ You should now be able to access your private ODNDash via your browser. Browse t
 11) You should now be able to access your private ODNDash via your browser. Browse to http://localhost/index.php to see it working. In case that you put all the files in a subfolder of htdocs, you have to include that folder in the url.
 12) In order to access your ODNDash from outside of your private network, your computer must be kept running and you have to forward the port 80 in your router so that it forwards the request to your Windows computer.
 
-You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php.
+You should now be able to access your private ODNDash via your browser. Browse to http://[ipaddress]/ODNDash/index.php, change ODNDash in case you downloaded the files to a different sub-folder of your htdocs folder on Mac OS or Windows.
 
 # Install ODNDash on Mac OS
 
