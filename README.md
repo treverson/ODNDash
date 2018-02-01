@@ -27,8 +27,8 @@ To install ODNDash, follow the next steps while connected to your VPS over SSH:
     *sudo apt-get update
     sudo apt-get install apache2*
 8) After installation is complete, run the following command to add Apache to the firewall exceptions: '*sudo ufw allow in "Apache Full"*'
-9) If you are using Amazon AWS, you should add HTTP-access over port 80 to the Security Group of your Instance. This can be done in the 
-Management Console -> Security Groups -> Select the active Security Group -> In the lower part of the screen go to the tab 'Inbound' and press 'Edit'. Press 'Add Rule', in the new window select 'HTTP' in the dropdown menu from Type. Leave the rest like it is and press Save.
+9) In order to access your ODNDash from outside of your private network, your computer must be kept running and you have to forward the port 80 in your router so that it forwards the request to your Windows computer. 
+    - If you are using Amazon AWS, you should add HTTP-access over port 80 to the Security Group of your Instance. This can be done in the Management Console -> Security Groups -> Select the active Security Group -> In the lower part of the screen go to the tab 'Inbound' and press 'Edit'. Press 'Add Rule', in the new window select 'HTTP' in the dropdown menu from Type. Leave the rest like it is and press Save.
 10) You should now be able to access your Apache server on your Ubuntu server by entering the public IP-address in your browser. Your public IP-address of your Amazon AWS can be found on the Instances page under IPv4 Public IP.
 11) Back in your SSH command line, install PHP with the following command: '*sudo apt-get install php libapache2-mod-php php-mcrypt php-curl*'
 12) Restart Apache with the command: '*sudo systemctl restart apache2*'
