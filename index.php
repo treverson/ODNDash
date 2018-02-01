@@ -23,34 +23,34 @@ $obj = json_decode($json, true);
 			</div>
 			<div class="container" >
 				<div class="row">
-					<div class="three columns">Wallet status:</div>
-					<div class="five columns" style="text-align: right;"><?php $conn = $odnPool->getConnections(); if($conn !== false) { echo $conn . " Connections"; } else { echo "Down";}?></div>
+					<div class="four columns offset-by-two columns">Wallet status:</div>
+					<div class="four columns" style="text-align: right;"><?php $conn = $odnPool->getConnections(); if($conn !== false) { echo $conn . " Connections"; } else { echo "Down";}?></div>
 				</div>
 				<div class="row">
-					<div class="three columns">Total ODN:</div>
-					<div class="five columns" style="text-align: right;"><?php $total = $odnPool->getTotal(); if($total !== false) { echo number_format($total, 2, '.', ',') . " ODN";} ?></div>
+					<div class="four columns offset-by-two columns">Total ODN:</div>
+					<div class="four columns" style="text-align: right;"><?php $total = $odnPool->getTotal(); if($total !== false) { echo number_format($total, 2, '.', ',') . " ODN";} ?></div>
 				</div>
 				<div class="row">
-					<div class="three columns">USD Value:</div>
-					<div class="five columns" style="text-align: right;"><?php if($total !== false AND $obj[0]["price_usd"] > 0.00) { echo "$ " . number_format($total*$obj[0]["price_usd"], 2, '.', ',');} ?></div>
+					<div class="four columns offset-by-two columns">USD Value:</div>
+					<div class="four columns" style="text-align: right;"><?php if($total !== false AND $obj[0]["price_usd"] > 0.00) { echo "$ " . number_format($total*$obj[0]["price_usd"], 2, '.', ',');} ?></div>
 				</div>
 				<div class="row">
-					<div class="three columns">Staking active:</div>
-					<div class="five columns" style="text-align: right;"><?php $staking = $odnPool->getStaking(); if($staking !== false) { echo "Active"; } else { echo "Not staking"; } ?></div>
+					<div class="four columns offset-by-two columns">Staking active:</div>
+					<div class="four columns" style="text-align: right;"><?php $staking = $odnPool->getStaking(); if($staking !== false) { echo "Active"; } else { echo "Not staking"; } ?></div>
 				</div>
 				<div class="row">
-					<div class="three columns">Staking weight:</div>
-					<div class="five columns" style="text-align: right;"><?php $weight = $odnPool->getStakingWeight(); if($weight !== false) { echo number_format($weight, 2, '.', ',') . " ODN"; }?></div>
+					<div class="four columns offset-by-two columns">Staking weight:</div>
+					<div class="four columns" style="text-align: right;"><?php $weight = $odnPool->getStakingWeight(); if($weight !== false) { echo number_format($weight, 2, '.', ',') . " ODN"; }?></div>
 				</div>
 				<div class="row">
-					<div class="three columns">Network weight:</div>
-					<div class="five columns" style="text-align: right;"><?php $weight = $odnPool->getNetworkWeight(); if($weight !== false) { echo number_format($weight, 2, '.', ',') . " ODN"; }?></div>
+					<div class="four columns offset-by-two columns">Network weight:</div>
+					<div class="four columns" style="text-align: right;"><?php $weight = $odnPool->getNetworkWeight(); if($weight !== false) { echo number_format($weight, 2, '.', ',') . " ODN"; }?></div>
 				</div>
 			</div>
-			<div class="container">
+			<div class="container" style="text-align: center;">
 				<h5>Last 50 transactions</h5>
 				<?php $transactions = $odnPool->getLastTransactions();?>
-				<table class='wallethistorytransactions'>
+				<table class="u-full-width">
 					<thead>
 						<tr>
 							<th>Date Time</th>
@@ -62,7 +62,7 @@ $obj = json_decode($json, true);
 						</tr>
 					</thead>
 					<tbody>
-						<?php for($i = sizeof($transactions); $i > 0; $i--) {
+						<?php for($i = sizeof($transactions) -1; $i > 0; $i--) {
 							if(is_array($transactions[$i])) {
 								$type = $transactions[$i]["category"];
 								?>
